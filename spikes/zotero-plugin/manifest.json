@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "DSTU spike",
+  "version": "0.0.1",
+  "description": "Runs one checked-in script at startup, writes a result file, quits.",
+  "applications": {
+    "zotero": {
+      "id": "dstu-spike@local",
+      "strict_min_version": "7.0",
+      "strict_max_version": "10.*"
+    }
+  }
+}

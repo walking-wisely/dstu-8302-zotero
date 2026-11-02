@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "ДСТУ 8302 helper",
+  "version": "0.2.0",
+  "description": "Item shim and output post-processor for the ДСТУ 8302:2015 CSL styles.",
+  "applications": {
+    "zotero": {
+      "id": "dstu-8302@local",
+      "strict_min_version": "7.0",
+      "strict_max_version": "10.*",
+      "update_url": "https://raw.githubusercontent.com/walking-wisely/dstu-8302-zotero/main/updates.json"
+    }
+  }
+}

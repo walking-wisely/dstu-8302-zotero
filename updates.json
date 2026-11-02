@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "dstu-8302@local": {
+      "updates": [
+        {
+          "version": "0.2.0",
+          "update_link": "https://github.com/walking-wisely/dstu-8302-zotero/releases/download/v0.2.0/dstu-8302-0.2.0.xpi",
+          "update_hash": "sha256:f1c7ed085d279e9121b6bdd169807cee362679ae9a241555ee7de2054990dcf7",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "7.0",
+              "strict_max_version": "10.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

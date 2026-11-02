@@ -1,0 +1,20 @@
+{
+  "name": "dstu-csl",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "check": "node tools/rules/check.mjs",
+    "corpus": "node tools/harness/run-corpus.mjs",
+    "report": "node tools/rules/report.mjs",
+    "build": "node tools/styles/compile.mjs",
+    "matrix": "node tools/styles/check-matrix.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "private": true
+}
